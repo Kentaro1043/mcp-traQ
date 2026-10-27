@@ -40,7 +40,7 @@ const mcpSchema = {
     .enum(["createdAt", "-createdAt", "updatedAt", "-updatedAt"])
     .optional()
     .describe(
-      "Sort order for messages(crearedAt: ascending, -createdAt: descending, updatedAt: ascending, -updatedAt: descending)"
+      "Sort order for messages (createdAt: descending, -createdAt: ascending, updatedAt: descending, -updatedAt: ascending)"
     ),
   includeBot: z
     .boolean()
