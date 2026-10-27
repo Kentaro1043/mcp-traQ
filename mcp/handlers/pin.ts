@@ -1,6 +1,6 @@
-import { z } from "npm:zod";
-import { McpServer } from "npm:@modelcontextprotocol/sdk/server/mcp";
-import { CallToolResult } from "npm:@modelcontextprotocol/sdk";
+import { z } from "zod";
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp";
+import { CallToolResult } from "@modelcontextprotocol/sdk";
 import { getPins, Client } from "../../traq/client.ts";
 
 const pinSchema = {

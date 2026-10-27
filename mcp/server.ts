@@ -1,5 +1,5 @@
-import { McpServer } from "npm:@modelcontextprotocol/sdk/server/mcp.js";
-import { StdioServerTransport } from "npm:@modelcontextprotocol/sdk/server/stdio.js";
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
 import { setup as setupMessage } from "./handlers/message.ts";
 import { setup as setupChannel } from "./handlers/channel.ts";

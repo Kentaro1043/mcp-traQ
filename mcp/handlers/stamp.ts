@@ -1,5 +1,5 @@
-import { McpServer } from "npm:@modelcontextprotocol/sdk/server/mcp";
-import { CallToolResult } from "npm:@modelcontextprotocol/sdk";
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp";
+import { CallToolResult } from "@modelcontextprotocol/sdk";
 import { getStamps, Client } from "../../traq/client.ts";
 
 const getStampsHandler = (client: Client) => {

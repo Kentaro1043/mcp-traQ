@@ -1,7 +1,7 @@
-import { program, Option } from "npm:commander";
+import { program, Option } from "commander";
 
 import { run } from "./mcp/server.ts";
-import { z } from "npm:zod";
+import { z } from "zod";
 import { createBotClient } from "./traq/client.ts";
 
 program.name("mcp-traq").description("MCP server for traQ").version("0.1.0");

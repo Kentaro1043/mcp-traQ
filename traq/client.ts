@@ -1,4 +1,4 @@
-import { Apis, Configuration } from "npm:@traptitech/traq";
+import { Apis, Configuration } from "@traptitech/traq";
 
 // Types
 type Messages = {

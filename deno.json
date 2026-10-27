@@ -1,14 +1,18 @@
 {
+  "minimumDependencyAge": "P3D",
   "tasks": {
     "dev": "deno run --watch main.ts",
     "compile": "deno compile --allow-net --allow-env -o dist/main main.ts"
   },
   "imports": {
-    "@modelcontextprotocol/sdk": "npm:@modelcontextprotocol/sdk@^1.7.0",
-    "@std/assert": "jsr:@std/assert@1",
-    "@std/expect": "jsr:@std/expect@1",
-    "@traptitech/traq": "npm:@traptitech/traq@^3.22.0-4",
-    "commander": "npm:commander@13",
-    "zod": "npm:zod@3"
+    "@modelcontextprotocol/sdk": "npm:@modelcontextprotocol/sdk@^1.32.2",
+    "@modelcontextprotocol/sdk/server/mcp": "npm:@modelcontextprotocol/sdk@^1.32.2/server/mcp.js",
+    "@modelcontextprotocol/sdk/server/mcp.js": "npm:@modelcontextprotocol/sdk@^1.32.2/server/mcp.js",
+    "@modelcontextprotocol/sdk/server/stdio.js": "npm:@modelcontextprotocol/sdk@^1.32.2/server/stdio.js",
+    "@std/assert": "jsr:@std/assert@^1.0.19",
+    "@std/expect": "jsr:@std/expect@^1.0.20",
+    "@traptitech/traq": "npm:@traptitech/traq@^3.30.0-4",
+    "commander": "npm:commander@^15.0.0",
+    "zod": "npm:zod@^4.6.7"
   }
 }
